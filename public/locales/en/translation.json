@@ -1,0 +1,16 @@
+{
+  "load_more" : "Load more",
+  "news":"News",
+  "profile":"Profile",
+  "home":"Home",
+  "log_in": "Log in",
+  "login": "Login",
+  "detail": "Hey, enter your details to get sign in to your account",
+  "sign_in": "Sign in",
+  "required_error": "This field is required",
+  "logout": "Log out",
+  "hello": "Hello!",
+  "glad": "I'm glad that you're here.",
+  "appreciate": "I appreciate your attention and I am grateful for your time.",
+  "luck": "Have a great day and good luck <3"
+}
