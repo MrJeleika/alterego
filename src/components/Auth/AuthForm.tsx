@@ -28,7 +28,7 @@ export const AuthForm = () => {
   const onSubmit = (data: FormInputs) => {
     if (users.find((user) => user.username === data.username && user.password === data.password)) {
       setAuthError(false);
-      sessionStorage.setItem("username", data.username);
+      localStorage.setItem("username", data.username);
       navigate("/profile", { replace: true });
       dispatch(setCurrentUser(data.username));
       dispatch(setAuthorized(true));
