@@ -15,7 +15,7 @@ function App() {
 
   // get data from local storage
   useEffect(() => {
-    const username = sessionStorage.getItem("username");
+    const username = localStorage.getItem("username");
     if (username) {
       dispatch(setAuthorized(true));
       dispatch(setCurrentUser(username));
